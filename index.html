@@ -10,67 +10,83 @@
 </head>
 <body>
 <header class="header">
-    <a href="https://it-incubator.io/" target="_blank">
-        <img src="" alt="logo">
-    </a>
-    <button class="btn">Login</button>
+    <div class="container">
+        <div class="header-wrapper">
+            <a href="https://it-incubator.io/" target="_blank">
+            <img src="assets/images/logo.svg" alt="logo">
+        </a>
+            <button class="btn">Login</button>
+        </div>
+    </div>
 </header>
-<section>
-    <h1 class="title">html+css. верстка</h1>
+<section class="main">
+    <div class="container">
+        <h1 class="title">html+css. верстка</h1>
+        <div class="cards-wrapper">
+            <div class="card">
+                <h2 class="card-title">Теория html + css. Структура приложения</h2>
+                <img class="card-img" src="./assets/images/img-1.svg">
+                <p class="card-description">Проговорим о том, что такое HTML и CSS. Создадим проект и рассмотрим его
+                    файловую
+                    структуру.
+                    Научимся
+                    работать с макетом в Figma. Изучим 13 самых используемых тегов. Напишем HTML-структуру нашего
+                    приложения.</p>
+            </div>
 
-    <div class="card">
-        <h2 class="card-title">Теория html + css. Структура приложения</h2>
-        <img class="card-img" src="./assets/images/img-1.svg">
-        <p class="card-description">Проговорим о том, что такое HTML и CSS. Создадим проект и рассмотрим его файловую
-            структуру.
-            Научимся
-            работать с макетом в Figma. Изучим 13 самых используемых тегов. Напишем HTML-структуру нашего
-            приложения.</p>
-    </div>
+            <div class="card">
+                <h2 class="card-title">Стилизация HTML-элементов</h2>
+                <img class="card-img" src="./assets/images/img-2.svg">
+                <p class="card-description">Подключим шрифты. Рассмотрим самый правильный способ добавления стилей.
+                    Рассмотрим
+                    синтаксис написания стилей. Напишем стили для элементов. Изучим популярные свойства . Посмотрим как
+                    располагать элементы,
+                    используя Flexbox.</p>
+            </div>
 
-    <div class="card">
-        <h2 class="card-title">Стилизация HTML-элементов</h2>
-        <img class="card-img" src="./assets/images/img-2.svg">
-        <p class="card-description">Подключим шрифты. Рассмотрим самый правильный способ добавления стилей. Рассмотрим
-            синтаксис написания стилей. Напишем стили для элементов. Изучим популярные свойства . Посмотрим как располагать элементы,
-            используя Flexbox.</p>
-    </div>
+            <div class="card">
+                <h2 class="card-title">Адаптив. Медиазапросы</h2>
+                <img class="card-img" src="./assets/images/img-3.svg">
+                <p class="card-description">Сделаем наше приложение адаптивным, чтобы оно так же хорошо выглядело на
+                    планшетах и мобильных телефонах.
+                    Рассмотрим как работает св-во flex-wrap. Научимся делать адаптив, используя м едиазапросы.</p>
+            </div>
+        </div>
 
-    <div class="card">
-        <h2 class="card-title">Адаптив. Медиазапросы</h2>
-        <img class="card-img" src="./assets/images/img-3.svg">
-        <p class="card-description">Сделаем наше приложение адаптивным, чтобы оно так же хорошо выглядело на
-            планшетах и мобильных телефонах.
-            Рассмотрим как работает св-во flex-wrap. Научимся делать адаптив, используя м едиазапросы.</p>
     </div>
 </section>
 <footer>
-    <ul>
-        <li>
-            <a href="#">
-                <img class="icon" src="./assets/images/home-icon.svg" alt="иконка">
-                Home
-            </a>
-        </li>
-        <li>
-            <a href="https://it-incubator.io/education">
-                <img class="icon" src="./assets/images/Group.svg" alt="иконка">
-                All Courses
-            </a>
-        </li>
-        <li>
-            <a href="https://sandbox.it-incubator.io/">
-                <img class="icon" src="./assets/images/sandbox-icon.svg" alt="иконка">
-                Sandbox
-            </a>
-        </li>
-        <li>
-            <a href="https://it-incubator.io/contacts">
-                <img class="icon" src="./assets/images/map-pointer-icon.svg" alt="иконка">
-                Contacts
-            </a>
-        </li>
-    </ul>
+    <div class="container">
+        <div class="footer-wrapper">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img class="icon" src="./assets/images/home-icon.svg" alt="иконка">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="https://it-incubator.io/education">
+                        <img class="icon" src="./assets/images/Group.svg" alt="иконка">
+                        All Courses
+                    </a>
+                </li>
+                <li>
+                    <a href="https://sandbox.it-incubator.io/">
+                        <img class="icon" src="./assets/images/sandbox-icon.svg" alt="иконка">
+                        Sandbox
+                    </a>
+                </li>
+                <li>
+                    <a href="https://it-incubator.io/contacts">
+                        <img class="icon" src="./assets/images/map-pointer-icon.svg" alt="иконка">
+                        Contacts
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
 </footer>
 </body>
 </html>
