@@ -24,7 +24,7 @@ ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-
+    flex-wrap: wrap;
 }
 
 footer a {
@@ -67,8 +67,6 @@ footer a {
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
-    border: 1px solid red;
-
 }
 
 .card {
@@ -123,20 +121,24 @@ footer a {
 
 }
 
-.footer-wrapper {
-
-    flex-wrap: wrap;
-}
-
 @media (max-width: 768px) {
     .title {
         font-size: 36px;
     }
 }
 
+
 @media (max-width: 360px) {
     .title {
         font-size: 28px;
+    }
+    footer {
+        height: 140px;
+        padding-top: 10px;
+    }
+
+    li {
+        margin: 15px 0;
     }
 }
 
